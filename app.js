@@ -6,7 +6,7 @@ const port = process.env.PORT || 3005;
 const cors = require('cors');
 
 app.use(cors({
-      origin: 'http://localhost:3000'
+      origin: 'https://melarix.com'
 }));
 
 
