@@ -1,0 +1,33 @@
+{
+  "name": "melarix-api",
+  "version": "1.0.0",
+  "description": "Melarix API server application.",
+  "main": "app.js",
+  "scripts": {
+    "test": "test.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melarix-com/melarix-api.git"
+  },
+  "keywords": [
+    "API",
+    "-",
+    "Data",
+    "Aggregator"
+  ],
+  "author": "Matthew Shelby",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/melarix-com/melarix-api/issues"
+  },
+  "homepage": "https://github.com/melarix-com/melarix-api#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  }
+}
