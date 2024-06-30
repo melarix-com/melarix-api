@@ -2,10 +2,10 @@
   "name": "melarix-api",
   "version": "1.0.0",
   "description": "Melarix API server application.",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "test": "test.js",
-    "dev": "nodemon app.js"
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,7 @@
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
+    "email-validator": "^2.0.4",
     "express": "^4.19.2",
     "mongodb": "6.7",
     "nodemon": "^3.1.4"
